@@ -11,6 +11,6 @@ type VERB {
 
 type Query {
     getAllVerbs: [VERB]
-    getVerb(id: String): VERB
+    getVerbById(id: String): VERB
 }
-`
+`;

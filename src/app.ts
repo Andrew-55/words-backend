@@ -2,8 +2,7 @@ import { ApolloServer } from "apollo-server-express";
 import express from "express";
 import { ApolloServerPluginDrainHttpServer } from "apollo-server-core";
 import http from "http";
-import { Schema } from "./Schema";
-import {Resolvers} from "./Resolvers";
+import { Schema, Resolvers } from "./schema";
 
 async function startApolloServer(schema: any, resolvers: any) {
     const app = express();
